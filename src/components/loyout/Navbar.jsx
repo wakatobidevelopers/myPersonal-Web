@@ -1,4 +1,4 @@
-import { FaGithub, FaBars } from "react-icons/fa";
+import { FaGithub} from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import 'animate.css';
