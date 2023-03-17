@@ -1,8 +1,6 @@
 import { FaGithub, FaBars } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' 
 import 'animate.css';
 
 
