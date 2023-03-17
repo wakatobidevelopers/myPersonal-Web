@@ -1,8 +1,10 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaBars } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' 
 import 'animate.css';
-import useModal from "../useModal";
+
 
 const Navbar = () => {
    
@@ -25,11 +27,28 @@ const Navbar = () => {
                <span className="self-center text-md font-semibold font-secondary whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 tracking-wide">Mimshad.id</span>
          </a>
                <div className="flex md:order-2">
-               <a className='text-white flex gap-1 items-center py-1 px-2 rounded-sm mr-4 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500'><FaGithub size='36px'/> <span>GitHub</span> </a>
+                     <a className='text-white flex gap-1 items-center py-1 px-2 rounded-sm mr-4 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500'><FaGithub size='36px' />  <span>GitHub</span> </a>
+                    
                  
-            <button onClick={() => Toggle()}  className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+                 
+            <button onClick={() => Toggle()}  className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-1 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                <span className="sr-only">Open main menu</span>
-               <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"></path></svg>
+                        
+               {show ? <div>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                  <path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                  </svg>
+                        </div> : <div>
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 7H19" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M5 12H15" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<path d="M5 17H11" stroke="white" stroke-width="2" stroke-linecap="square"/>
+</svg>
+                           </div>
+               
+               }
             </button>
          </div>
          <div  className={`items-center justify-between ${!show ? "hidden" : "animate__animated animate__fadeInUp"} w-full    md:flex md:w-auto md:order-1`} id="navbar-sticky">
