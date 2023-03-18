@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const Home = (props) => {
    const [modal, setModal] = useState(false);
-  const Toggle = () => setModal(!modal);
+   const Toggle = () => setModal(!modal);
 
    return (
     
@@ -20,7 +20,7 @@ const Home = (props) => {
                   <span className="text-md text-secondary">I am a beginner front-end developer with a passion for creating beautiful and user-friendly websites. </span>
                   <div className="flex items-center">
                      <Button type="button" onClick={() => Toggle()} className="rounded-none bottom-0  md:w-max" gradientDuoTone="greenToBlue">
-                     <FaRegEnvelope className=" mr-2 "/>        Email Me
+                     <FaRegEnvelope className=" mr-2 "/> Let's Talk
                      </Button>
                      <Modal show={modal} close={ Toggle } />
                      
