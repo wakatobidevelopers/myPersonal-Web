@@ -13,8 +13,8 @@ const Home = (props) => {
     
          <Loyout>
             
-            <div className="grid grid-cols-1 gap-4 place-items-center max-w-md mx-auto my-184">
-               <div className="place-self-stretch flex items-center mt-10">
+            <div className="grid grid-cols-1 gap-4 place-items-center max-w-md mx-auto md:my-184 my-16">
+               <div className="place-self-stretch flex flex-col gap-6 items-center mt-10">
                <div className="flex gap-8 flex-col md:w-3/5">
                   <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-bold text-lg leading-45 font-secondary">Hi There, I'm <br /> La Ode Mimshad.</h1>
                   <span className="text-md text-secondary">I am a beginner front-end developer with a passion for creating beautiful and user-friendly websites. </span>
@@ -34,7 +34,7 @@ const Home = (props) => {
                   </div>
                </div>
                <div className="flex items-center justify-center backdrop-blur-sm bg-white/10 w-80 h-80 overflow-hidden drop-shadow-xl">
-               <img className="hidden md:block w-3/5" img src={avatar} alt="" />
+               <img className=" md:block w-3/5" img src={avatar} alt="gambar" />
                   </div>
             </div>
             <div className="mt-40 place-self-stretch">
