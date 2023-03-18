@@ -6,7 +6,7 @@ const Footer = () => {
       <div>
          
          <footer className="md:px-77.5 sm:p-6 dark:bg-gray-900 mb-0 backdrop-blur-sm bg-white/5">
-            <div className="md:flex sm:flex sm:items-center sm:justify-between py-8">
+            <div className="flex items-center md:justify-between flex-col-reverse gap-6 md:flex-row py-6">
                <span className="text-sm font-semibold font-secondary text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 sm:text-center">© 2023 <a href="https://flowbite.com/" className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:underline">Mimshad.id</a>
                </span>
                <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 items-center">

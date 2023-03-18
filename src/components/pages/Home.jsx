@@ -13,13 +13,13 @@ const Home = (props) => {
     
          <Loyout>
             
-            <div className="grid grid-cols-1 gap-4 place-items-center max-w-md mx-auto md:my-184 my-16">
-               <div className="place-self-stretch flex flex-col gap-6 items-center mt-10">
-               <div className="flex gap-8 flex-col md:w-3/5">
+            <div className="grid grid-cols-1 gap-4 place-items-center max-w-md mx-auto md:my-184 my-20">
+               <div className="place-self-stretch flex flex-col md:flex-row gap-6 items-center mt-10">
+               <div className="flex gap-8 flex-col md:w-3/5 w-10/12">
                   <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-bold text-lg leading-45 font-secondary">Hi There, I'm <br /> La Ode Mimshad.</h1>
                   <span className="text-md text-secondary">I am a beginner front-end developer with a passion for creating beautiful and user-friendly websites. </span>
-                  <div className="flex items-center">
-                     <Button type="button" onClick={() => Toggle()} className="rounded-none bottom-0  md:w-max" gradientDuoTone="greenToBlue">
+                  <div className="flex items-center md:flex-row  flex-col">
+                     <Button type="button" onClick={() => Toggle()} className="rounded-none bottom-0  md:w-max w-full mb-1" gradientDuoTone="greenToBlue">
                      <FaRegEnvelope className=" mr-2 "/> Let's Talk
                      </Button>
                      <Modal show={modal} close={ Toggle } />
@@ -28,12 +28,9 @@ const Home = (props) => {
                         <FaFileDownload className="mr-1 ml-6"/>
                         Download CV
                      </a>
-                     {/* <a className="text-sm py-0  px-3" href="#">
-                        <span className="flex  items-center my-2 "><FaFileDownload/>Download CV</span>
-                     </a> */}
                   </div>
                </div>
-               <div className="flex items-center justify-center backdrop-blur-sm bg-white/10 w-80 h-80 overflow-hidden drop-shadow-xl">
+               <div className="flex items-center justify-center backdrop-blur-sm bg-white/10 w-80 h-80 overflow-hidden drop-shadow-xl mt-10">
                <img className=" md:block w-3/5" img src={avatar} alt="gambar" />
                   </div>
             </div>
@@ -41,9 +38,9 @@ const Home = (props) => {
                <div>
                <h1 className="text-transparent text-center bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-bold text-lg leading-45 font-secondary">Recent Project</h1>
                </div>
-               <div className="max-w-full mt-12">
+               <div className=" md:max-w-full mt-12">
                   <Card 
-                     className="backdrop-blur-sm bg-white/10 rounded-none border-0 pt-6 px-6"
+                     className="backdrop-blur-sm bg-white/10 rounded-none border-0 pt-6 px-6 md:w-full w-11/12 mx-auto"
                      imgAlt="Meaningful alt text for an image that is not purely decorative"
                      imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg"
                   >
@@ -54,7 +51,7 @@ const Home = (props) => {
                      </Button>
                   </Card>
                   <Card 
-                     className="backdrop-blur-sm bg-white/10 rounded-none border-0 pt-6 px-6 mt-10"
+                     className="backdrop-blur-sm bg-white/10 rounded-none border-0 pt-6 px-6 mt-12 md:w-full w-11/12 mx-auto"
                      imgAlt="Meaningful alt text for an image that is not purely decorative"
                      imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg"
                   >
