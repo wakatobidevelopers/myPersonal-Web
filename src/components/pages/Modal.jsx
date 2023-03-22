@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'flowbite-react';
 import Form from './Form';
 
 const Modal = ({show, close}) => {
@@ -25,10 +24,8 @@ const Modal = ({show, close}) => {
                         </button>
                     </div>
                     {/* <!-- Modal body --> */}
-                    <div className="p-6 space-y-6">
-                      
-                    <Form/>
-                      
+                    <div className="p-6 space-y-6"> 
+                      <Form/>  
                     </div>
                     {/* <!-- Modal footer --> */}
                     <div className="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">

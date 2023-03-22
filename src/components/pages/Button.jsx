@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const Buttons = ({ icon, title, onClick, style, link}) => {
    return (
       <button type="button" onClick={onClick} className={style}>

@@ -2,7 +2,7 @@ export const styles = {
   gradientColor:
     "from-green-400 to-blue-500",
   headTextStyle:
-    `text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 font-bold text-lg leading-45 font-secondary`,
+    `text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 font-bold md:text-lg text-[2.5rem] leading-45 font-secondary`,
   headTextColor:
     "text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500",
   container:
@@ -14,5 +14,5 @@ export const styles = {
   backgroundBlur:
     "backdrop-blur-sm bg-white/10",
   button:
-    " flex items-center text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-thin text-md p-3 text-center mr-2 mb-2 "
+    "flex items-center text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-thin text-md p-3 text-center "
 }
