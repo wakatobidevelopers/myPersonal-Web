@@ -13,7 +13,7 @@ const Hero = () => {
    return(
       <>
          <div className={`${styles.section}`}>
-            <div className="flex gap-8 flex-col md:w-3/5 w-[85%]">
+            <div className="flex gap-8 flex-col md:w-3/5 w-[90%]">
                <h1 className={`${styles.headTextStyle}`}>Hi There, I'm <br /> La Ode Mimshad.</h1>
                <span className="text-md text-secondary">I am a beginner front-end developer with a passion for creating beautiful and user-friendly websites.
                </span>
