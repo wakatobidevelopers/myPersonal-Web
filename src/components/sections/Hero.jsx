@@ -4,10 +4,11 @@ import { ReactComponent as Comment } from "../../assets/icons/comment_fill.svg";
 import Buttons from "../pages/Button"
 import avatar from '../../assets/images/avatar.png';
 import Modal from "../pages/Modal";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
    const [modal, setModal] = useState(false);
+
    const Toggle = () => setModal(!modal);
 
    return(
@@ -15,7 +16,7 @@ const Hero = () => {
          <div className={`${styles.section}`}>
             <div className="flex gap-8 flex-col md:w-3/5 w-[90%]">
                <h1 className={`${styles.headTextStyle}`}>Hi There, I'm <br /> La Ode Mimshad.</h1>
-               <span className="text-md text-secondary">I am a beginner front-end developer with a passion for creating beautiful and user-friendly websites.
+               <span className={`text-md text-secondary`}>I am a beginner front-end developer with a passion for creating beautiful and user-friendly websites.
                </span>
                <div className={`${styles.flexItemCenter} gap-3 flex md:items-center  md:flex-row  flex-col text-center`}>
             
