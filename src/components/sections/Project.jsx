@@ -5,7 +5,7 @@ import Card from "../pages/Card";
 const Project = () => (
    <div className="mt-40 place-self-stretch">
       <div className="text-center ">
-         <h1 className={`${styles.headTextStyle}`}>Recent Project</h1>
+         <h1 className={`${styles.headTextStyle}`}>Portofolio</h1>
       </div>
       <div className=" md:max-w-full mt-12 flex flex-col gap-20">
          {projects.map((item) => 

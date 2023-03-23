@@ -4,6 +4,7 @@ import { useState } from "react";
 import {navLink} from "../constains"
 import { ReactComponent as Burger } from "../../assets/icons/burger.svg";
 import { ReactComponent as Close } from "../../assets/icons/close.svg";
+import { ReactComponent as Logo } from "../../assets/icons/logo.svg";
 import 'animate.css';
 
 
@@ -29,10 +30,10 @@ const Navbar = () => {
       
       <div>
          <div className='relative'>
-            <nav className={`md:px-77.5 px-2 sm:px-4 py-2.5 ${backdropBlur} fixed w-full z-20 top-0 left-0`}> 
+            <nav className={`md:px-77.5 px-6 sm:px-4 py-2.5 ${backdropBlur} fixed w-full z-20 top-0 left-0`}> 
                <div className="container flex-wrap flex items-center justify-between mx-auto">
                   <a href="https://flowbite.com/" className="flex items-center">
-                        <span className={`self-center text-md ${textGradient} font-semibold font-secondary whitespace-nowrap tracking-wide`}>Mimshad.id</span>
+                        <span className={`self-center text-md ${textGradient} font-semibold font-secondary whitespace-nowrap tracking-wide`}><Logo/></span>
                   </a>
 
                   <div className="flex md:order-2">
@@ -41,7 +42,7 @@ const Navbar = () => {
                         <FaGithub size='36px' /> <span>GitHub</span>
                      </a>
                      
-                     <button onClick={() => Toggle()}  className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-1 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+                     <button onClick={() => Toggle()}  className="inline-flex items-center px-3 text-sm text-gray-500 focus:bg-white/10 rounded-lg md:hidden focus:outline-none" aria-controls="navbar-sticky" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>   
                         {show ? <Close/> : <Burger />}
                      </button>

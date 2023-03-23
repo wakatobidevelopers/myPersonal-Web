@@ -1,23 +1,11 @@
 import Loyout from "../loyout/Loyout"
-
+import { styles } from "../../style";
 
 const Project = () => {
    return (
       <Loyout>
-         <div>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman</h1>
-            <h1>Ini Halaman Project</h1>
+         <div className={`${styles.container}`}>
+            
          </div>
       </Loyout>
    )

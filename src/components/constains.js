@@ -13,8 +13,8 @@ export const navLink = [
   },
 
   {
-    'title': 'Project',
-    "route": '/project'
+    'title': 'Portofolio',
+    "route": '/portofolio'
   },
 
   {
