@@ -1,9 +1,9 @@
 import {FaFileDownload} from "react-icons/fa";
-import { styles } from "../../style";
-import { ReactComponent as Comment } from "../../assets/icons/comment_fill.svg";
-import Buttons from "../pages/Button"
-import avatar from '../../assets/images/avatar.png';
-import Modal from "../pages/Modal";
+import { styles } from "../style";
+import { ReactComponent as Comment } from "../assets/icons/comment_fill.svg";
+import Buttons from "../components/Button";
+import avatar from '../assets/images/avatar.png';
+import Modal from "../components/Modal";
 import { useEffect, useState } from "react";
 
 const Hero = () => {

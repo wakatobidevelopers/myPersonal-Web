@@ -1,6 +1,6 @@
-import { styles } from "../../style";
+import { styles } from "../style";
 import { projects } from "../constains";
-import Card from "../pages/Card";
+import Card from "../components/Card";
 
 const Project = () => (
    <div className="mt-40 place-self-stretch">

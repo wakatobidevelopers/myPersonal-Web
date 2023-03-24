@@ -1,5 +1,5 @@
-import img1 from '../assets/images/img1.png'
-import personal from '../assets/images/personal.png'
+import img1 from './assets/images/img1.png'
+import personal from './assets/images/personal.png'
 
 export const navLink = [
   {

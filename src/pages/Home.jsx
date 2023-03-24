@@ -1,5 +1,5 @@
 import Loyout from "../loyout/Loyout";
-import { styles } from "../../style";
+import { styles } from "../style";
 import Project from "../sections/Project";
 import Hero from "../sections/Hero";
 import More from "../sections/More";

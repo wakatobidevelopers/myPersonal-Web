@@ -1,5 +1,5 @@
 import Loyout from "../loyout/Loyout"
-import { styles } from "../../style";
+import { styles } from "../style";
 
 const Project = () => {
    return (
