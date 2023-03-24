@@ -1,6 +1,7 @@
 import {FaFileDownload} from "react-icons/fa";
 import { styles } from "../style";
 import { ReactComponent as Comment } from "../assets/icons/comment_fill.svg";
+import Heros from "../assets/images/Hero.png";
 import Buttons from "../components/Button";
 import avatar from '../assets/images/avatar.png';
 import Modal from "../components/Modal";
@@ -37,8 +38,8 @@ const Hero = () => {
                   </a>
                </div>
             </div>
-            <div className={`${styles.flexItemCenter} justify-center backdrop-blur-sm bg-white/10 w-80 h-80 overflow-hidden drop-shadow-xl mt-10`}>
-               <img className=" md:block w-3/5" img src={avatar} alt="gambar" />
+            <div className={`${styles.flexItemCenter} justify-center  overflow-hidden drop-shadow-xl mt-10`}>
+                  <img className=" md:block w-3/5" img src={Heros} alt="gambar" />
             </div>
          </div>
       </>
