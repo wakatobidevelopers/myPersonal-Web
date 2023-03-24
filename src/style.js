@@ -6,9 +6,9 @@ export const styles = {
   headTextColor:
     "text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500",
   container:
-    "grid grid-cols-1 gap-4 place-items-center max-w-md mx-auto md:my-184 my-20",
+    "grid grid-cols-1 gap-4 place-items-center max-w-md mx-auto md:my-100 my-20",
   section:
-    "place-self-stretch flex flex-col md:flex-row gap-6 items-center mt-10",
+    "place-self-stretch mt-10 flex flex-col md:flex-row gap-6 items-center",
   flexItemCenter:
     "flex items-center",
   backgroundBlur:
