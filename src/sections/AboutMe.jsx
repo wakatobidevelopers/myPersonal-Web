@@ -14,7 +14,7 @@ function AboutMe() {
          <div className={styles.section}>
             <div className=" w-[90%] ">
             <h1 className={`${styles.headTextStyle} text-secondary font-secondary text-left text-lg`}>About Me</h1>
-               <p className='text-md text-secondary text-justify'>{isReadMore ? text.aboutMe.slice(0, 356) : text.aboutMe} <span className={` text-primary underline cursor-pointer`} onClick={() => Toggle()}>{isReadMore ? "Read More" : "Show Less"}</span></p>
+               <p className='text-md text-secondary '>{isReadMore ? text.aboutMe.slice(0, 356) : text.aboutMe} <span className={` text-primary underline cursor-pointer`} onClick={() => Toggle()}>{isReadMore ? "Read More" : "Show Less"}</span></p>
             </div>
          </div>
 
