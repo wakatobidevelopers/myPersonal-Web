@@ -38,7 +38,7 @@ export const educations = [
   {
     'Title': "Bachelor Digree",
     'class': "Informatics",
-    'institution': "Yogyakarta Technology Unversity",
+    'institution': "Yogyakarta Technology University",
     'year': "2019 - Currently",
     'address': " Yogyakarta, Indonesia",
     'desc':
