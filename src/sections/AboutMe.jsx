@@ -20,10 +20,10 @@ function AboutMe() {
          <div className={styles.section}>
             <div className=" w-[90%] ">
                <h1 className={`text-secondary font-secondary text-left text-lg`}>Education</h1>
-               <div className='flex flex-col bg-gradient p-6 text-[0.86rem] text-white'>
+               <div className='flex flex-col bg-gradient p-4 text-[0.86rem] text-white'>
                   <div className='flex w-full justify-between'>
                      <div>
-                        <h2 className='text-md font-bold font-secondary text-white'>Bachelor Digree</h2>
+                        <h2 className='text-[1rem] font-bold font-secondary text-white'>Bachelor Digree</h2>
                         <span> Informatics</span>
                      </div>
                   <div className=''>
