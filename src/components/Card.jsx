@@ -7,7 +7,7 @@ const Card = ({ title, image, detail }) => (
       <img src={image} className='rounded-lg'/>
       <h1 className="text-md font-secondary text-[#ececec] py-4 mb-4 tracking-wider">{title}</h1>
       <Buttons
-         title="More About This Project"
+         title="Demo Project"
          style={`p-3 flex items-center text-sm text-[#ececec] bg-white/10`}
          link={'#'}
          icon={<External />}

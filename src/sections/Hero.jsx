@@ -8,7 +8,6 @@ import {useState } from "react";
 
 const Hero = () => {
    const [modal, setModal] = useState(false);
-
    const Toggle = () => setModal(!modal);
 
    return(
