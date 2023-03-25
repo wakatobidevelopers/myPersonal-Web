@@ -8,8 +8,8 @@ function EducationCard() {
             <div className=" w-[90%] ">
                <h1 className={`${styles.headTextStyle} font-secondary text-left text-lg`}>Education</h1>
                {educations.map((items) => 
-                     <div className='relative flex flex-col bg-gradient bg-gradient-md md:p-8 p-4 text-[0.86rem] text-white mt-10'>
-                     <div className='flex w-full justify-between md:text-[1.3rem]'>
+                     <div className='relative flex-col bg-gradient bg-gradient-md md:p-8 p-4 text-[0.86rem] text-white mt-10'>
+                     <div className='flex w-full justify-between md:text-[1.3rem] pb-4 border-b'>
                         <div>
                            <h2 className='md:text-md text-[1.3rem] font-bold font-secondary text-white'>{items.Title}</h2>
                            <p className='italic text-green-500'> {items.class}</p>
@@ -21,7 +21,7 @@ function EducationCard() {
                      </div>
                      </div>
 
-                     <div className='mt-10 w-full text-[1rem] md:text-[1.3rem] text-secondary'>
+                     <div className='mt-8 w-full text-[1rem] md:text-[1.3rem] text-secondary'>
                         <p >{ items.desc }</p>
                         </div>
                   
