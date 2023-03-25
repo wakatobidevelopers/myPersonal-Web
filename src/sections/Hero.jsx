@@ -3,9 +3,8 @@ import { styles } from "../style";
 import { ReactComponent as Comment } from "../assets/icons/comment_fill.svg";
 import Heros from "../assets/images/Hero.png";
 import Buttons from "../components/Button";
-import avatar from '../assets/images/avatar.png';
 import Modal from "../components/Modal";
-import { useEffect, useState } from "react";
+import {useState } from "react";
 
 const Hero = () => {
    const [modal, setModal] = useState(false);
