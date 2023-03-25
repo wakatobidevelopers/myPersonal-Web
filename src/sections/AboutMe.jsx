@@ -19,7 +19,25 @@ function AboutMe() {
 
          <div className={styles.section}>
             <div className=" w-[90%] ">
-            <h1 className={`text-secondary font-secondary text-left text-lg`}>Education</h1>
+               <h1 className={`text-secondary font-secondary text-left text-lg`}>Education</h1>
+               <div className='flex bg-gradient p-6 text-[0.86rem] text-white'>
+                  <div>
+                     <div>
+                        <h2 className='text-md font-bold font-secondary text-white'>Bachelor Digree</h2>
+                        <span> Informatics</span>
+                     </div>
+                     <div className='mt-10'>
+                        <p>GPA : 3.5 out of 4.00</p>
+                        <p>Instituton : Universitas Teknologi Yogyakarta</p>
+                     </div>
+                  </div>
+
+                  <div className=''>
+                     <p className='bg-primary text-center'>2019 - Ongoing</p>
+                     <p>Yogyakarta, Indonesia</p>
+                  </div>
+               
+               </div>
             </div>
          </div>
          
