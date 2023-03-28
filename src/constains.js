@@ -52,6 +52,16 @@ export const educations = [
     'address': "Wakatobi, Indonesia",
     'desc':
       "In senior high school, I had the opportunity to learn about programming and computer science for the first time. I was immediately drawn to the logical and problem-solving aspects of programming, and I found the idea of being able to create and design software programs to be incredibly fascinating."
+  },
+  
+  {
+    'Title': "Senior High School",
+    'class': "Science Math",
+    'institution': " Senior High School 1 Wangi-Wangi",
+    'year': "2016 - 2019",
+    'address': "Wakatobi, Indonesia",
+    'desc':
+      "In senior high school, I had the opportunity to learn about programming and computer science for the first time. I was immediately drawn to the logical and problem-solving aspects of programming, and I found the idea of being able to create and design software programs to be incredibly fascinating."
   }
 
 ]
