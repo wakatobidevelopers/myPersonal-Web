@@ -4,6 +4,7 @@ import { ReactComponent as Comment } from "../assets/icons/comment_fill.svg";
 import Heros from "../assets/images/Hero.png";
 import Buttons from "../components/Button";
 import Modal from "../components/Modal";
+import Maman from "../assets/images/maman.png"
 import {useState } from "react";
 
 const Hero = () => {
@@ -37,7 +38,7 @@ const Hero = () => {
                </div>
             </div>
             <div className={`} overflow-hidden drop-shadow-xl md:w-[35%] md:mt-0 w-[85%] mt-20`}>
-                  <img img src={Heros} alt="gambar" />
+                  <img img src={Maman} alt="gambar" width="250"/>
             </div>
          </div>
       </>

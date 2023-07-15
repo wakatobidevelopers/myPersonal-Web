@@ -2,7 +2,7 @@ export const styles = {
   gradientColor:
     "from-green-400 to-blue-500",
   headTextStyle:
-    `text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 font-bold md:text-lg text-[2.5rem] leading-45 font-secondary`,
+    `text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500 font-bold md:text-lg text-[2.5rem] leading-45 font-secondary`,
   headTextColor:
     "text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500",
   container:
