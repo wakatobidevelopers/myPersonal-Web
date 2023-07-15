@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React, { useRef } from 'react';
 import emailjs, { sendForm } from '@emailjs/browser';
+import {styles} from '../style'
 import { Button } from "flowbite-react";
 
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from './Form';
+import { styles } from '../style';
 
 const Modal = ({show, close}) => {
   return (
@@ -7,13 +8,11 @@ const Modal = ({show, close}) => {
      {
      show ?
 
-     <div
-        className="modalContainer"
-      >
-        <div className="flex backdrop-blur-lg bg-white/10 items-center fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] md:h-full">
+     <div>
+        <div className="flex backdrop-blur-lg bg-white/10 fixed top-0 left-0 right-0 z-50 w-full h-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 md:h-full">
             <div className="relative w-full h-full max-w-2xl md:h-auto md:mx-auto">
                 {/* <!-- Modal content --> */}
-                <div className="relative backdrop-blur-sm bg-white/10 shadow dark:bg-gray-700">
+                <div className={`relative ${styles.backgroundBlur} shadow`}>
                     {/* <!-- Modal header --> */}
                     <div className="flex items-start justify-between p-4 rounded-t dark:border-gray-600">
                         <h1 className="text-md font-semibold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500  dark:text-white">
@@ -28,8 +27,6 @@ const Modal = ({show, close}) => {
                       <Form/>  
                     </div>
                     {/* <!-- Modal footer --> */}
-                    <div className="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    </div>
                 </div>
             </div>
         </div>
